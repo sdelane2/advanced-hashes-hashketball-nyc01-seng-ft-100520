@@ -221,7 +221,7 @@ def big_shoe_rebounds
           if value > shoe_variable
             shoe_variable = value
         elsif stat == :player_name
-            player_variable = value 
+          player_variable = value 
             binding.pry
           end
         end
