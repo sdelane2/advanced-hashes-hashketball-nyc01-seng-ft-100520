@@ -221,12 +221,12 @@ def big_shoe_rebounds
         if stat == :shoe 
           if value > shoe_variable
             shoe_variable = value
-            player_variable = stats[:player_name]
+            player_variable = stats[:rebounds]
           end
         end
       end
     end
-    binding.pry 
   end
+  return player_variable 
 end
   
