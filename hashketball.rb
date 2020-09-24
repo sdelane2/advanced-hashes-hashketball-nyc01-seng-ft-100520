@@ -216,6 +216,7 @@ def big_shoe_rebounds
   shoe_variable = 0
   game_hash.each do |home, b|
     b[:players].each do |stats|
+      binding.pry 
       stats.each do |stat, value|
         if stat == :shoe 
           if value > shoe_variable
